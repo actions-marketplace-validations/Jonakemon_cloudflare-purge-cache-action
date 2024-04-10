@@ -5,8 +5,8 @@ LABEL "com.github.actions.description"="Purge a zone's cache via the Cloudflare 
 LABEL "com.github.actions.icon"="trash-2"
 LABEL "com.github.actions.color"="blue"
 
-LABEL "repository"="https://github.com/Jonakemon/purge-cache-cloudflare-zone"
-LABEL "homepage"="https://github.com/Jonakemon/purge-cache-cloudflare-zone"
+LABEL "repository"="https://github.com/Jonakemon/cloudflare-purge-cache-action"
+LABEL "homepage"="https://github.com/Jonakemon/cloudflare-purge-cache-action"
 LABEL "maintainer"="jonakemon"
 
 RUN apk update && apk add openssl curl
